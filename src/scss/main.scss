@@ -127,6 +127,23 @@ header {
     font-weight: 300;
     font-size: 15px;
   }
+
+  .reset-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 20px;
+    border: #FFFFFF;
+    padding: 5px 10px;
+
+    &:hover{
+      background-color: greenyellow;
+      transition: 0.3s;
+    }
+  }
 }
 
 #backdrop {
