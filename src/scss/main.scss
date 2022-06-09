@@ -10,7 +10,7 @@ body {
 header {
   background: #E4C1AE;
   color: white;
-  padding: 1rem;
+  padding: 20px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   width: 100%;
@@ -31,26 +31,31 @@ header {
   display: flex;
   justify-content: center;
   width: 1440px;
-  margin-top: 95px;
+  margin: 95px auto;
+  left: 20px;
+  right: 20px;
 
   .description{
     width: 380px;
     margin-left: 95px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
     h1 {
       font-style: normal;
       font-weight: 700;
-      font-size: 42px;
+      font-size: 45px;
       line-height: 120%;
       color: #121212;
-      margin: 25px 0;
+      margin: 0;
     }
 
     p {
       font-style: normal;
       font-weight: 300;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 150%;
       margin: 0;
       height: 95px;
@@ -59,15 +64,14 @@ header {
     #countBtn {
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 100%;
       width: 130px;
       height: 50px;
       background: #E4C1AE;
-      border-radius: 32px;  
+      border-radius: 30px;  
       color: #FFFFFF;
       border: none;
-      margin-top: 35px;
       cursor: pointer;
 
       &:hover{
