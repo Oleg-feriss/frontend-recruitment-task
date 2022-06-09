@@ -9,6 +9,7 @@
     />
     <title>[Oleh] [Tarasiuk] - Recruitment task</title>
     <link rel="stylesheet" href="dist/main.css" />
+    <script src="dist/all.js" defer></script>
   </head>
   <body>
     <header>
@@ -19,15 +20,21 @@
         src="/images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg"
         alt="beach"
       />
-      <div>
+      <div class="description">
         <h1>Lorem Ipsum</h1>
         <p>
           Infinitely scalable, feature-rich and cloud-native data management and
           protection for modern and legacy infrastructures and SaaS platforms,
           managed via a single app with no hardware required.
         </p>
-        <button type="button">Button</button>
+        <button id="countBtn">Button</button>
       </div>
     </section>
+    <div id="backdrop"></div>
+    <div class="modal" id="modal">
+      <button class="close" id="modalCloseBtn">&times;</button>
+      <div class="title">Alert!</div>
+      <p class="text">You have clicked X times to related button</p>
+    </div>
   </body>
 </html>
